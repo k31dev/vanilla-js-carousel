@@ -1,4 +1,5 @@
 .carousel {
+    display: flex;
     position: relative;
     width: 600px;
     height: 200px;
@@ -75,4 +76,29 @@
     z-index: 2;
     text-align: center;
     line-height: 50px;
+}
+
+.indexContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 150px; */
+    height: 50px;
+    z-index: 2;
+    background-color: aliceblue;
+    align-self: flex-end;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.indexBtn {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    margin: 5px;
+}
+
+.selectedIndex {
+    background-color: red;
 }
